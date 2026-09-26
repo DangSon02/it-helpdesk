@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT-HELPDESK</title>
+  </head>
+  <body>
+    <main>
+      <h2>IT Helpdesk</h2>
+      <section>
+        <h2>Sự cố máy tính? Để IT lo cho bạn</h2>
+
+        <ul>
+          <li>Gửi yêu cầu trong chưa đầy 1 phút</li>
+          <li>Theo dõi tiến độ xử lý theo thời gian thực</li>
+          <li>Trao đổi trực tiếp với bộ phận IT</li>
+        </ul>
+
+        <section>
+          <ol>
+            <li>
+              <p>IT-1041</p>
+              Đang xử lý
+            </li>
+            <li>VPN mất kết nối khi làm việc tại nhà</li>
+            <li>
+              <p>Cao</p>
+            </li>
+          </ol>
+
+          <ol>
+            <li>
+              <p>IT-1042</p>
+              Mới
+            </li>
+            <li>Laptop chạy rất chậm sau khi cập nhật</li>
+            <li>
+              <p>Trung bình</p>
+            </li>
+          </ol>
+
+          <ol>
+            <li>
+              <p>IT-1043</p>
+              Đã xong
+            </li>
+            <li>Màn hình phụ không hiển thị</li>
+            <li>
+              <p>Thấp</p>
+            </li>
+          </ol>
+        </section>
+      </section>
+
+      <section>
+        <h2>Đăng nhập</h2>
+        <p>Dùng tài khoản email công ty của bạn</p>
+        <p role="alert">Email hoặc mật khẩu không đúng.</p>
+        <form action="/login" method="POST">
+          <div>
+            <label for="email">Email công ty</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label for="password">Mật khẩu</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" name="remember-login" /> Ghi nhớ đăng nhập
+            </label>
+            <a href="#">Quên mật khẩu?</a>
+          </div>
+          <button type="submit">Đăng nhập</button>
+        </form>
+        <p>Chưa có tài khoản? Liên hệ bộ phận IT qua số nội bộ.</p>
+      </section>
+    </main>
+  </body>
+</html>
