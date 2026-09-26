@@ -14,6 +14,6 @@ Hệ thống báo cáo và xử lý sự cố CNTT cho doanh nghiệp.
 
 ## Cách chạy
 
-1. Clone repo: `git clone https://github.com/<tên>/meeting-room-booking`
+1. Clone repo: `https://github.com/DangSon02/it-helpdesk`
 2. Mở thư mục bằng VS Code.
 3. Mở `frontend/login.html` bằng Live Server.
